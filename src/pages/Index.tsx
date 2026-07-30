@@ -55,11 +55,11 @@ const Index = () => {
                 </button>
               ))}
             </div>
-            <Link to="/dashboard">
-              <Button variant="ghost" size="sm">Dashboard</Button>
+            <Link to="/login">
+              <Button variant="ghost" size="sm">Log in</Button>
             </Link>
-            <Link to="/dashboard">
-              <Button variant="hero" size="sm">Get Started</Button>
+            <Link to="/register">
+              <Button variant="hero" size="sm">Sign Up</Button>
             </Link>
           </div>
         </div>
@@ -82,14 +82,14 @@ const Index = () => {
                 Upload your course content and get a personalized 15-week study roadmap based on your free time. Stay organized, track progress, and ace your semester.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/dashboard">
+                <Link to="/register">
                   <Button variant="hero" size="xl">
                     Get Started Free
                   </Button>
                 </Link>
-                <Link to="/dashboard/courses">
+                <Link to="/login">
                   <Button variant="hero-outline" size="xl">
-                    Create Your Plan
+                    Sign In
                   </Button>
                 </Link>
               </div>
@@ -100,7 +100,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-success" />
-                  <span className="text-sm text-muted-foreground">No signup required</span>
+                  <span className="text-sm text-muted-foreground">Sign-up required</span>
                 </div>
               </div>
             </div>
@@ -244,7 +244,7 @@ const Index = () => {
               <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
                 Join thousands of students who are already studying smarter, not harder.
               </p>
-              <Link to="/dashboard">
+              <Link to="/register">
                 <Button variant="hero" size="xl">
                   Start Planning Now
                 </Button>
